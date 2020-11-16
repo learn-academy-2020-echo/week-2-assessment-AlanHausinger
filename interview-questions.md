@@ -4,17 +4,19 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. Why would you use the method super()?
 
-  Your answer:
+  Your answer: Its used to call back to parent objects, and is easy to recognize.
 
-  Researched answer:
+  Researched answer: The method super is used to refer to parent objects and to access the superclass constructor,
+  it used to get rid of confusion between superclasses and subclasses that may have the same name.
 
 
 
 2. What is a virtual DOM?
 
-  Your answer:
+  Your answer:It's a virtual representation of a UI.
 
-  Researched answer:
+  Researched answer: The virtual dom is a concept where the virtual representation of a UI and is kept in memory and synced
+  with the real dom library.
 
 
 
@@ -28,25 +30,26 @@ Answer the following questions. First, without external resources. Challenge you
 
 4. What is JSX?
 
-  Your answer:
+  Your answer:JSX is a hybrid between JavaScript and HTMl
 
-  Researched answer:
+  Researched answer: Hybrid between JavaScript and HTML which is viewed by the user in the browser.
+
 
 
 
 5. What is state in React?
 
-  Your answer:
+  Your answer: It's where you store property value that belongs in a component.
 
-  Researched answer:
+  Researched answer: The state of react is when an object where you store property values that belongs to the component. When the state object changes, the component re-renders.
 
 
 
 6. STRETCH: What is hoisting in JavaScript?
 
-  Your answer:
+  Your answer:Hoisting is where a a variable is at the top of a code before execution.
 
-  Researched answer:
+  Researched answer: Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
 
 
 

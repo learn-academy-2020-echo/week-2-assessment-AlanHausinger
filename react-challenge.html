@@ -21,9 +21,10 @@ HINT: Check the console in the browser developer tools for errors. -->
     <div id="react-container"></div>
     <script type="text/babel">
     // No need to change anything ABOVE this line ^
+    // I did see that line 46 isn't valid and I've tried a few things and I don't understand Why
+    // it doesn't go through, my best guess is its a sytax error but I don't see why I am missing.
 
-
-
+<div>
       class App extends React.Component{
         constructor(props){
           super(props)
@@ -32,6 +33,7 @@ HINT: Check the console in the browser developer tools for errors. -->
             currentMood: ""
           }
         }
+
 
         handleMoodOptions = () => {
           let randomIndex = Math.floor(Math.random() * this.state.moods.length )
@@ -55,7 +57,7 @@ HINT: Check the console in the browser developer tools for errors. -->
           )
         }
       }
-
+      </div>
 
 
 
